@@ -1,7 +1,7 @@
 # Getting Started
 
 ## Windows
-prueba
+prueba dos
 ### Compile Code
 * ./mvnw.cmd clean compile -e
 
