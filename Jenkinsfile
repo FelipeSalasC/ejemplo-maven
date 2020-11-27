@@ -34,7 +34,7 @@ script{
 dir('/home/felipe/Documentos/DEVOPS/MODULO3/MAVEN/ejemplo-maven'){
 sleep 60
 final String url =
-'http://localhost:8081/rest/mscovid/test?msg=testing'
+'http://localhost:8080/rest/mscovid/test?msg=testing'
 final String response = sh(script: "curl -X GET $url",
 returnStdout: true).trim()
 echo response
